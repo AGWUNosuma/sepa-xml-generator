@@ -1,0 +1,19 @@
+csv:
+  delimiter: ","
+  encoding: "utf-8"
+
+defaults:
+  debtor_name: "Your Company GmbH"
+  debtor_iban: "DE02120300000000202051"
+  debtor_bic: "BYLADEM1001"   # optional
+  pain_version: "pain.001.001.03"
+  currency: "EUR"
+
+map:
+  creditor_name: "name"
+  creditor_iban: "iban"
+  creditor_bic: "bic"
+  amount: "amount"
+  currency: "currency"
+  remittance_information: "remittance"
+  end_to_end_id: "e2e_id"

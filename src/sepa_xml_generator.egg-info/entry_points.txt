@@ -1,0 +1,2 @@
+[console_scripts]
+sepa-xml-generator = sepa_xml_generator.cli:app
